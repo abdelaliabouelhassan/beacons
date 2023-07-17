@@ -5,9 +5,9 @@
       <slot></slot>
       </div>
     <div class="  flex m-auto items-center justify-center">
-      <div class=" flex flex-col items-center -space-y-2">
+      <div class=" flex flex-col items-center sm:-space-y-2">
         <span class=" capitalize">{{props.title}}</span>
-        <span v-if="props.subtitle">{{props.subtitle}}</span>
+        <span v-if="props.subtitle" class=" text-xs sm:text-sm">{{props.subtitle}}</span>
       </div>
     </div>
   </div>

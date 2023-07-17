@@ -17,8 +17,10 @@ const app = createApp({});
 
 import LinkCard from './components/UI/LinkCard.vue';
 import UpdateCard from './components/UI/UpdateCard.vue';
+import ShareModal from './components/UI/ShareModal.vue';
 app.component('link-card', LinkCard);
 app.component('update-card', UpdateCard);
+app.component('share-modal', ShareModal);
 
 /**
  * The following block of code may be used to automatically register your

@@ -34,9 +34,7 @@
     <body>
       <div class=" w-full max-w-[600px] mx-auto px-4 sm:px-0 py-4" id="app">
         <div class=" flex justify-end">
-            <button class=" rounded-full w-8 h-8 z-50 bg-gray-100 flex items-center justify-center hover:bg-gray-100 hover:opacity-70 css-1j7qk7u">
-                <svg class="h-5 w-5 text-gray-700 fill-current " focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ShareIcon" alt="share dialog icon"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path></svg>
-            </button>
+            <share-modal></share-modal>
         </div>
 
         <div class=" w-full flex flex-col items-center space-y-5 py-10">
@@ -80,7 +78,7 @@
         </div>
 
         <div class=" w-full bg-[rgba(255, 255, 255, 0)] py-5 rounded-3xl overflow-hidden relative">
-            <iframe width="560" height="315" class="rounded-3xl" src="https://www.youtube.com/embed/83gIQFYnkvU" title="FML - SEREDA (OFFICIAL VIDEO)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  class="rounded-3xl w-full  h-[250px] sm:h-[315px]" src="https://www.youtube.com/embed/83gIQFYnkvU" title="FML - SEREDA (OFFICIAL VIDEO)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
 
@@ -145,7 +143,7 @@
         
 
         <div class=" w-full bg-[rgba(255, 255, 255, 0)] rounded-3xl overflow-hidden relative py-5">
-          <iframe width="560" height="315"  class="rounded-3xl" src="https://www.youtube.com/embed/-PIhc15rPeU" title="I&#39;m Me Ft. Nimar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe  class="rounded-3xl w-full  h-[250px] sm:h-[315px]" src="https://www.youtube.com/embed/-PIhc15rPeU" title="I&#39;m Me Ft. Nimar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
 
